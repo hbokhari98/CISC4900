@@ -1,0 +1,19 @@
+.back {
+    background-color: white;
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+.Title {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: text-info;
+    font-family: 'Satisfy', cursive;
+    outline-color: black;
+    padding: 2px;
+  }
+}
+
+.info {
+    margin-top: 50px;
+    font-family: 'Satisfy', cursive;
+    outline-color: black;
+}

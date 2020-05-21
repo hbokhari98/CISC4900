@@ -1,0 +1,40 @@
+.cardSize {
+	width: 80%;
+	text-align: center;
+}
+
+.cardBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttonAddPet {
+	width: 100%;
+	padding: 10px 20px; 
+	display: flex;
+	justify-content: center;
+}
+
+.name {
+	text-transform: capitalize;
+	font-family: 'Satisfy';
+	font-size: 30px;
+	outline-color: black;
+	font-weight: bold;
+}
+
+.page {
+	background-image: url('/assets/page.png');
+	background-repeat: repeat-x repeat-y;
+	width: 100%;
+	margin: auto;
+}
+
+.att {
+	text-transform: capitalize;
+	font-family: 'Satisfy';
+	font-size: 20px;
+	outline-color: black;
+}
+
